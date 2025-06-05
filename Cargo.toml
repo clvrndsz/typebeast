@@ -1,0 +1,10 @@
+[package]
+name = "typebeast"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+crossterm = "0.29.0"
+
+random_word = { version = "0.5.0", features = ["en"] }
+ratatui = "0.29.0"
