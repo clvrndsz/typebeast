@@ -141,7 +141,7 @@ impl <'a> App <'a> {
     /// Actions that should be taken when a key event comes in. Append Char here to display string.
     fn handle_key_event(&mut self, key_event: KeyEvent) -> io::Result<()> {
 
-        match key_event.code {
+        match key_event.code {                
             KeyCode::Backspace => {
                 // Remove last output char and move index back if possible
                 if self.global_index > 0 {
